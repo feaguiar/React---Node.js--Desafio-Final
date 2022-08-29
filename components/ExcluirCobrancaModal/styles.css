@@ -1,0 +1,65 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 7vw;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2000;
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+}
+
+.modalExcluirId {
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 30px;
+  padding: 95px 80px;
+  position: relative;
+}
+
+.iconX {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  cursor: pointer;
+}
+
+.icon-triangulo {
+  height: 150px;
+}
+
+.titulo-confirmacao {
+  color: #CC7800;
+  margin-bottom: 30px;
+}
+
+.btn-confirmacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn-vermelho {
+  width: 100px;
+  height: 24px;
+  background: #F2D6D0;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #AE1100;
+  border: none;
+}
+
+.btn-verde {
+  width: 100px;
+  height: 22.59px;
+  background: #ACD9C5;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #034A2A;
+  border: none;
+}

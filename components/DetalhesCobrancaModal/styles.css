@@ -1,0 +1,50 @@
+.backdrop {
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-detalhes {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    ;
+    padding: 40px 55px;
+    position: relative;
+    height: 500px;
+    width: 600px;
+    justify-content: space-between;
+}
+
+.iconX {
+    position: absolute;
+    right: 24px;
+    top: 24px;
+    cursor: pointer;
+}
+
+.container-detalhes-titulo {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+    align-items: center;
+}
+
+.container-detalhes-venc {
+    display: flex;
+    gap: 150px;
+}
+
+.container-detalhes-id {
+    display: flex;
+    gap: 150px;
+}
+
+.colum {
+    display: flex;
+    flex-direction: column;
+}
